@@ -1,4 +1,4 @@
-let MyRadio = {
+let myRadio = {
 stations: [
   {
     name:'Pop',
@@ -42,4 +42,4 @@ random: function() {
         console.log("Now Playing Track: "+ song.title + " Artist: " + song.artist);
 }
 }
-MyRadio.random()
+myRadio.random()
